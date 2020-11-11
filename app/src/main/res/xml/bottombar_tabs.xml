@@ -1,0 +1,17 @@
+<tabs>
+    <tab
+        barColorWhenSelected="#006daa"
+        icon="@drawable/ic_list_24"
+        id="@+id/tab_list"
+        title="List" />
+    <tab
+        barColorWhenSelected="#1E5127"
+        icon="@drawable/ic_search_24"
+        id="@+id/tab_search"
+        title="search" />
+    <tab
+        barColorWhenSelected="#1CFBFB"
+        icon="@drawable/ic_file_24"
+        id="@+id/tab_file"
+        title="file" />
+</tabs>
