@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -29,7 +30,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_margin="8dp"
-                    android:src="@drawable/ic_audiotrack_black_24dp" />
+                    android:src="@drawable/ic_audiotrack" />
 
                 <TextView
                     android:id="@+id/txt_music_name"
@@ -65,7 +66,6 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:layout_gravity="center_vertical"
                     android:id="@+id/img_play_stop"
                     android:layout_width="30dp"
                     android:layout_height="25dp"
